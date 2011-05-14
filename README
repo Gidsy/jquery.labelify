@@ -1,3 +1,16 @@
+================
+JQuery Labelify
+================
+
+This is an adaption of the JQuery Labelify with the following improvements:
+
+ * It supports password fields
+ * On focus the label text is not hidden, but made a bit lighter
+ * Since the text is not hidden on focus the mouse cursor is forced to the first character on initial focus. 
+ * If the field has a custom value the cursor is not forced to the first position on subsequent focus.
+
+-------------------
+
 labelify: a jQuery plugin to add labels to your textboxes
 
   This is a text-only adaptation from http://www.kryogenix.org/days/2008/06/25/labelify-add-labels-to-textboxes-with-jquery
